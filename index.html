@@ -21,11 +21,8 @@
     --cream: #f4ecd2;
     --white: #ffffff;
   }
-
   * { box-sizing: border-box; }
-
   html, body { margin: 0; padding: 0; }
-
   body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     color: var(--navy);
@@ -38,13 +35,11 @@
     -webkit-font-smoothing: antialiased;
     line-height: 1.4;
   }
-
   .container {
     max-width: 560px;
     margin: 0 auto;
     padding: 28px 20px 56px;
   }
-
   /* ---------- Header / Title ---------- */
   .tagline {
     font-family: 'Anton', sans-serif;
@@ -55,7 +50,6 @@
     text-transform: uppercase;
     color: var(--navy);
   }
-
   .title {
     font-family: 'Alfa Slab One', serif;
     color: var(--coral);
@@ -65,20 +59,16 @@
     line-height: 0.95;
     letter-spacing: 0.5px;
   }
-
   .title .sm { font-size: 1.6rem; display: block; }
   .title .lg { font-size: 3.2rem; display: block; margin-top: 14px; }
   .title .md { font-size: 2rem; display: block; margin-top: 12px; }
-
   @media (min-width: 480px) {
     .title .sm { font-size: 2rem; }
     .title .lg { font-size: 4rem; margin-top: 18px; }
     .title .md { font-size: 2.5rem; margin-top: 14px; }
   }
-
   /* ---------- Sections ---------- */
   .section { margin-top: 36px; }
-
   .section-label {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
@@ -87,14 +77,12 @@
     font-size: 1.1rem;
     margin: 0 0 16px;
   }
-
   /* ---------- Event Cards ---------- */
   .events {
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
-
   .event-card {
     display: flex;
     align-items: center;
@@ -109,26 +97,22 @@
     box-shadow: 5px 5px 0 var(--navy);
     transition: transform 0.08s ease, box-shadow 0.08s ease;
   }
-
   .event-card:hover,
   .event-card:focus-visible {
     transform: translate(-1px, -1px);
     box-shadow: 6px 6px 0 var(--navy);
     outline: none;
   }
-
   .event-card:active {
     transform: translate(3px, 3px);
     box-shadow: 2px 2px 0 var(--navy);
   }
-
   .event-card .date {
     font-family: 'Anton', sans-serif;
     font-size: 1.35rem;
     line-height: 1.1;
     text-transform: uppercase;
   }
-
   .event-card .day {
     display: block;
     font-size: 0.75rem;
@@ -137,7 +121,6 @@
     margin-bottom: 3px;
     font-weight: normal;
   }
-
   .event-card .cta {
     background: var(--coral);
     color: var(--white);
@@ -149,26 +132,21 @@
     letter-spacing: 1px;
     white-space: nowrap;
   }
-
   .event-card.tbd {
     cursor: default;
     box-shadow: 5px 5px 0 rgba(31, 39, 104, 0.4);
     border-color: rgba(31, 39, 104, 0.5);
   }
-
   .event-card.tbd:hover,
   .event-card.tbd:active {
     transform: none;
     box-shadow: 5px 5px 0 rgba(31, 39, 104, 0.4);
   }
-
   .event-card.tbd .date { opacity: 0.6; }
-
   .event-card.tbd .cta {
     background: var(--cream);
     color: var(--navy);
   }
-
   /* ---------- Time + Location ---------- */
   .location {
     text-align: center;
@@ -178,7 +156,6 @@
     padding: 20px 18px;
     box-shadow: 5px 5px 0 var(--coral);
   }
-
   .location .time {
     font-family: 'Anton', sans-serif;
     font-size: 1.7rem;
@@ -187,13 +164,11 @@
     text-transform: uppercase;
     letter-spacing: 1px;
   }
-
   .location address {
     font-style: normal;
     line-height: 1.5;
     font-size: 1rem;
   }
-
   .location address strong {
     font-family: 'Anton', sans-serif;
     font-weight: normal;
@@ -201,7 +176,6 @@
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
-
   .location .features {
     margin: 18px 0 0;
     padding-top: 16px;
@@ -210,18 +184,15 @@
     line-height: 1.6;
     color: var(--navy);
   }
-
   .location .features .sep {
     color: var(--coral);
     margin: 0 6px;
     font-weight: bold;
   }
-
   .location .features-second {
     display: block;
     margin-top: 6px;
   }
-
   /* ---------- Collection Button ---------- */
   .collection-btn {
     display: flex;
@@ -242,19 +213,16 @@
     box-shadow: 5px 5px 0 var(--coral);
     transition: transform 0.08s ease, box-shadow 0.08s ease;
   }
-
   .collection-btn:hover,
   .collection-btn:focus-visible {
     transform: translate(-1px, -1px);
     box-shadow: 6px 6px 0 var(--coral);
     outline: none;
   }
-
   .collection-btn:active {
     transform: translate(3px, 3px);
     box-shadow: 2px 2px 0 var(--coral);
   }
-
   /* ---------- Contact ---------- */
   .contact {
     text-align: center;
@@ -262,7 +230,6 @@
     padding-top: 28px;
     border-top: 3px dashed var(--navy);
   }
-
   .contact .questions {
     font-family: 'Alfa Slab One', serif;
     font-size: 1.5rem;
@@ -270,7 +237,6 @@
     margin: 0 0 8px;
     letter-spacing: 0.5px;
   }
-
   .contact .who {
     font-family: 'Anton', sans-serif;
     font-size: 1.1rem;
@@ -278,16 +244,13 @@
     letter-spacing: 1px;
     margin: 4px 0;
   }
-
   .contact a {
     color: var(--coral);
     text-decoration: none;
     font-weight: 600;
     word-break: break-all;
   }
-
   .contact a:hover { text-decoration: underline; }
-
   /* ---------- Reduced motion ---------- */
   @media (prefers-reduced-motion: reduce) {
     .event-card, .collection-btn { transition: none; }
@@ -296,19 +259,15 @@
 </head>
 <body>
   <main class="container">
-
     <p class="tagline">Stop doom scrolling, start dice rolling</p>
-
     <h1 class="title">
       <span class="sm">Pop-Up</span>
       <span class="lg">Board Game</span>
       <span class="md">Cafe</span>
     </h1>
-
     <section class="section" aria-labelledby="dates-heading">
       <p class="section-label" id="dates-heading">Upcoming Sessions</p>
       <div class="events">
-
         <a class="event-card" href="https://lansdale.recdesk.com/Community/Program/Detail?programId=945">
           <span class="date">
             <span class="day">Friday</span>
@@ -316,7 +275,7 @@
           </span>
           <span class="cta">Register</span>
         </a>
-        
+
         <a class="event-card" href="https://lansdale.recdesk.com/Community/Program/Detail?programId=958">
           <span class="date">
             <span class="day">Friday</span>
@@ -324,26 +283,22 @@
           </span>
           <span class="cta">Register</span>
         </a>
-
         <span class="event-card tbd" aria-disabled="true">
           <span class="date">
             <span class="day">Wednesday</span>
             July 15, 2026
           </span>
           <span class="cta">Coming Soon</span>
-        </a>
-
+        </span>
         <span class="event-card tbd" aria-disabled="true">
           <span class="date">
             <span class="day">Friday</span>
             August 14, 2026
           </span>
           <span class="cta">Coming Soon</span>
-        </a>
-
+        </span>
       </div>
     </section>
-
     <section class="section">
       <div class="location">
         <p class="time">7:00 – 10:00 PM</p>
@@ -358,19 +313,16 @@
         </p>
       </div>
     </section>
-
     <section class="section">
       <a class="collection-btn" href="https://gameshelf.io/user/rjm5001?sort=alphabet%2Casc&amp;vert&amp;players-s-s&amp;maxPlayTime-m-s&amp;type-i-h=Expansion&amp;status-i-s=Owned">
         See the Game Collection →
       </a>
     </section>
-
     <footer class="contact">
       <p class="questions">Questions?</p>
       <p class="who">Ryan M</p>
       <p><a href="mailto:rjm5001@gmail.com">rjm5001@gmail.com</a></p>
     </footer>
-
   </main>
 </body>
 </html>
